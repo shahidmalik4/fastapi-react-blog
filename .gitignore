@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.env
+.env.*
+.venv/
+venv/
+env/
+venv/
+*.egg-info/
+*.egg/
+*.pkl
+*.pyc
+instance/
+
+# Alembic
+alembic/versions/
+
+# FastAPI
+*.pid
+uvicorn.log
+
+# Node/React
+node_modules/
+dist/
+build/
+.npm/
+.cache/
+*.lock
+.vite/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment and test files
+coverage/
+htmlcov/
+pytest_cache/
+.mypy_cache/
+*.cover
+*.DS_Store
+
+# GitHub Codespaces or DevContainers
+.devcontainer/
